@@ -1,27 +1,23 @@
-How to run this Library Management System Project
+This Project is divuded into two modules.
+      Student
+      Admin
+Admin Features:-
+Admin Dashboard 
+Admin can add/update/delete category.
+Admin can add/update/delete author.
+Admin can add/update/delete books.
+can issue a new book to student and also update the details when student return book.
+Admin can search student by using their studentID. 
+Admin can also view student details.
+Admin can change own password.
 
-1. Download and Unzip file on your local system copy library.
-2. Put library folder inside root directory
-
-Database Configuration
-
-Open phpmyadmin
-Create Database library
-Import database library.sql (available inside zip package)
-
-For User
-
-Open Your browser put inside browser “http://localhost/library”
-Login Details for user: 
-Username: test@gmail.com
-Password: Test@123
-
-For Admin Panel
-
-Open Your browser put inside browser “http://localhost/library/admin”
-Login Details for admin : 
-Username: admin
-Password:Test@123
+Student Features:-
+Student can register yourself and after registration they will get studentid.
+After login student can view own dashboard.
+Student can also view the listed books in the library.
+Student can also update own profile.
+Student can view issued books and book return date and time.
+Student can also change own password.
+Student can also recover own password.
 
 
-For More Details --- https://phpgurukul.com/online-library-management-system/
